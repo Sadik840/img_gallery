@@ -1,0 +1,25 @@
+body{
+	font-family: 'Zen Dots', cursive;
+	font-weight: 500;
+}
+h1{
+	text-align: center;
+	color: forestgreen;
+}
+.image{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.image img{
+	width: 270px;
+	padding: 5px;
+	transition: 1s;
+	filter: grayscale(1);
+}
+
+
+.image img:hover{
+	transform: scale(1.1);
+	filter: grayscale(0);
+}
